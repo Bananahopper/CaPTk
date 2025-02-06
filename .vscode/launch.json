@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args" : ["--original_seg=/scratch/users/ggaspar/CaPTk/datasets/UCSF-PDGM-v3/UCSF-PDGM-0535_nifti/UCSF-PDGM-0535_tumor_segmentation.nii.gz",
+             "--cortical_seg=/scratch/users/ggaspar/CaPTk/output_registration/UCSF-PDGM-v3/UCSF-PDGM-0535_nifti/inverse_warp/UCSF-PDGM-0535_nifti_seg_reg_cort.nii.gz",
+            "--subcortical_seg=/scratch/users/ggaspar/CaPTk/output_registration/UCSF-PDGM-v3/UCSF-PDGM-0535_nifti/inverse_warp/UCSF-PDGM-0535_nifti_seg_reg_sub.nii.gz"],
+            "justMyCode": false
+        }
+    ]
+}
